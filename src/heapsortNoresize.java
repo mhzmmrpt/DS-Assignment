@@ -85,9 +85,9 @@ public class heapsortNoresize {
         maxHeap.insert(2);
         maxHeap.insert(7);
 
-        maxHeap.display(); // 70 30 50
+        maxHeap.display(); // 9 4 7 1 3 2 5
 
         System.out.println("Delete max: " + maxHeap.deleteMax());
-        maxHeap.display(); // 50 30
+        maxHeap.display(); // 7 4 5 1 3 2
     }
 }
