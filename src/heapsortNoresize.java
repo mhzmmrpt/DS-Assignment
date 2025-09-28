@@ -77,9 +77,13 @@ public class heapsortNoresize {
     public static void main(String[] args) {
         MaxHeap maxHeap = new MaxHeap(20); // heap ขนาดสูงสุด 20 ตัว
 
-        maxHeap.insert(50);
-        maxHeap.insert(30);
-        maxHeap.insert(70);
+        maxHeap.insert(9);
+        maxHeap.insert(4);
+        maxHeap.insert(5);
+        maxHeap.insert(1);
+        maxHeap.insert(3);
+        maxHeap.insert(2);
+        maxHeap.insert(7);
 
         maxHeap.display(); // 70 30 50
 
